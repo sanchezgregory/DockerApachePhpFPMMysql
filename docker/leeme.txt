@@ -1,0 +1,23 @@
+http://www.inanzzz.com/index.php/post/su76/creating-apache-mysql-and-php-fpm-containers-for-a-web-application-with-docker-compose
+
+├── bad.php
+├── docker
+│   ├── apache
+│   │   ├── Dockerfile
+│   │   ├── httpd.conf
+│   │   └── httpd-vhosts.conf
+│   ├── build.sh
+│   ├── destroy.sh
+│   ├── docker-compose.yml
+│   ├── .env
+│   ├── mysql
+│   │   └── Dockerfile
+│   └── php
+│       ├── Dockerfile
+│       └── www.conf
+└── www
+     |__index.php
+     |__bad.php
+
+
+
